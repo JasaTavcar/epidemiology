@@ -1,0 +1,14 @@
+// HIV Transmission Model
+digraph {
+	rankdir=LR
+	node [fillcolor=lightblue fontsize=12 shape=circle style=filled]
+	MSM [label="MSM
+(Core)"]
+	Women [label="Women
+(Peripheral)"]
+	Men [label="Peripheral Men"]
+	MSM -> MSM [label="β" color=red fontcolor=red]
+	MSM -> Women [label="α₁" color=blue]
+	Women -> Men [label="α₂" color=green]
+	Men -> Women [label="α₃" color=orange]
+}
