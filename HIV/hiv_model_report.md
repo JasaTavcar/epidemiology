@@ -1,6 +1,8 @@
 
 # Transmission Model — Core & General Population
 
+![Orignal data](original_data.png)
+
 I've extracted the data from the official Hong Kong STD update for years 2003-2024 and implemented a **compartmental ODE-based model** to simulate and fit the dynamics of HIV transmission across two interacting groups:
 
 - **Core group** (MSM - men who have sex with other men)
